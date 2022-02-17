@@ -1,0 +1,28 @@
+title: "dotandl's blog"
+author: 'dotandl'
+baseURL: 'https://dotandl.github.io/'
+languageCode: 'pl-PL'
+defaultContentLanguage: 'pl'
+theme: 'hermit-dracula' # Dracula <3
+
+# Without these lines code blocks aren't displayed correctly
+pygmentsCodefences: true
+pygmentsUseClasses: true
+
+params:
+  themeColor: '#282a36' # Dracula <3
+
+  # TODO: translate to Polish
+  dateform: 'Jan 2, 2006'
+  dateformShort: 'Jan 2'
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04 -0700'
+
+  footerCopyright: 'Oskar Zawidlak, aka <i>dotandl</i>'
+
+  justifyContent: true
+
+menu:
+  main:
+    - name: 'Posty'
+      url: 'posts/'
