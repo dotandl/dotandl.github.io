@@ -1,4 +1,5 @@
 {{ $style := resources.Get "sass/style.sass" | resources.ExecuteAsTemplate
 "css/style.css" . | toCSS | minify | fingerprint -}} <link rel="stylesheet"
 href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity |
-safeHTMLAttr }} crossorigin="anonymous">
+safeHTMLAttr }} crossorigin="anonymous"> {{ template
+"_internal/google_analytics.html" }}

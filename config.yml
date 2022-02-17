@@ -5,6 +5,8 @@ languageCode: 'pl-PL'
 defaultContentLanguage: 'pl'
 theme: 'hermit-dracula' # Dracula <3
 
+googleAnalytics: 'G-6HTN077SLW'
+
 # Without these lines code blocks aren't displayed correctly
 pygmentsCodefences: true
 pygmentsUseClasses: true
